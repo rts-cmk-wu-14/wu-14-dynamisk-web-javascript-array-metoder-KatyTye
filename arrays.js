@@ -63,3 +63,7 @@ let numbersArray = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21]
 // Den familie der har hunden "Polly" er desværre blevet forhindret i at deltage i udstillingen.
 // Fjern hunden "Polly" fra dogsArray og udskriv det nye array i konsollen
 //  ["Barney", "Molly", "Baxter", "Polly", "Buddy", "Suki", "Watson"];
+/** ** @param {string} name "fx: 'Polly'" */
+function removeDogFromArray(name) { dogsArray.splice(dogsArray.indexOf(name), dogsArray.indexOf(name)); return name }
+console.log(`Removed Dog named: ${removeDogFromArray("Polly")}`)
+console.log(dogsArray)
