@@ -10,6 +10,9 @@ let numbersArray = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21]
 // Tilføj katten "Sniffles" til catsArray.
 // Udskriv arrayet i konsollen.
 // console.log("Opgave 2", ...)
+/** ** @param {string} name "fx: 'Sniffles'"  */
+function addCatName(name) { catsArray.push(name); console.log(`Added new cat named: ${name}`); console.log(catsArray); }
+addCatName("Sniffles")
 
 // Opgave 3a
 // Check om der i dogsArray er en hund som hedder "Trixie".
