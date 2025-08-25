@@ -27,15 +27,13 @@ let numbersArray = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21]
 // Check om der i catsArray er en kat som hedder "Bagheera".
 // Udskriv katten i konsollen hvis den findes og ellers "undefined".
 // console.log("Opgave 4a", ...)
-/** ** @param {string} name "fx: 'Bagheera'" */
-function returnCatBoolName(name) { dogsArray.forEach((cValue) => { if (cValue == name) { return name } }); return undefined }
-console.log(`Found the cat: ${returnBoolOfName("Bagheera")}`)
+
 
 // Opgave 4b
 // Check om der i catsArray er en kat som hedder "Salem".
 // Udskriv katten i konsollen hvis den findes og ellers "undefined".
 // console.log("Opgave 4b", ...)
-
+console.log(`Found the cat: ${returnBoolOfName("Salem")}`)
 
 //     Opgave 5
 // Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle tallene i arrayet ganget med 3.
