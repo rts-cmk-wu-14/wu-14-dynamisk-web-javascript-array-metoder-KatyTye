@@ -51,7 +51,9 @@ let numbersArray = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21]
 //     Opgave 7a
 // Find ud af hvilket index "Mango" har i fruitsArray.
 // Udskriv indexet i konsollen.
-
+/** ** @param {string} name "fx: 'Mango'" */
+function findReturnFruitNamed(name) { return fruitsArray.indexOf(name) }
+console.log(findReturnFruitNamed("Mango"))
 
 // Opgave 7b
 // Find ud af hvilket index "Blåbær" har i fruitsArray.
