@@ -21,7 +21,7 @@ let numbersArray = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21]
 // Check om der i dogsArray er en hund som hedder "Baxter".
 // Udskriv "true" eller "false" i konsollen afhængig af svaret.
 // console.log("Opgave 3b", ...)
-
+console.log(`Found the dog: ${returnBoolOfName("Baxter")}`)
 
 //     Opgave 4a
 // Check om der i catsArray er en kat som hedder "Bagheera".
