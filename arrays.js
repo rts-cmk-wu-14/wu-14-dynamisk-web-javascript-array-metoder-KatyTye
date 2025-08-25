@@ -49,7 +49,9 @@ console.log(`Found the cat: ${returnBoolOfName("Salem")}`)
 // Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle tallene i arrayet ganget med 3.
 // Udskriv det nye array i konsollen:
 // console.log("Opgave 5", ...)
-
+/** ** @param {number} number "fx: '3'" */
+function returnArrayWithExtra(number) { let returnArray = []; numbersArray.forEach((cValue) => { returnArray.push(cValue * number) }); return returnArray }
+console.log(returnArrayWithExtra(3))
 
 //     Opgave 6
 // Udskriv alle hundene i dogsArray i én lang streng.
