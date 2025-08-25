@@ -58,7 +58,7 @@ console.log(findReturnFruitNamed("Mango"))
 // Opgave 7b
 // Find ud af hvilket index "Blåbær" har i fruitsArray.
 // Udskriv indexet i konsollen.
-
+console.log(findReturnFruitNamed("Blåbær"))
 
 // Opgave 8
 // Lad os forestille os, at dogsArray er en liste af tilmeldte hunde til en udstilling.
