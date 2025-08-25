@@ -46,7 +46,7 @@ let numbersArray = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21]
 // (Sådan her: BarneyMollyBaxter...)
 // Udskriv strengen konsollen:
 // console.log("Opgave 6", ...)
-
+console.log(dogsArray.toString().replaceAll(",", ""))
 
 //     Opgave 7a
 // Find ud af hvilket index "Mango" har i fruitsArray.
