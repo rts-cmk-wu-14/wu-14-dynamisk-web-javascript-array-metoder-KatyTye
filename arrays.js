@@ -5,6 +5,9 @@ let numbersArray = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21]
 
 // --- Løs opgaverne herunder ---
 //opgave 1: Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle de tal som er større end 20.
+/** * * @param {number} amount "0-9999"  * @returns "LIST"*/
+function returnNumberAbove(amount) { return numbersArray.filter((cValue) => cValue > amount); }
+console.log(returnNumberAbove(20))
 
 // Opgave 2
 // Tilføj katten "Sniffles" til catsArray.
