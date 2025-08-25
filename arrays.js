@@ -15,7 +15,9 @@ let numbersArray = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21]
 // Check om der i dogsArray er en hund som hedder "Trixie".
 // Udskriv "true" eller "false" i konsollen afhængig af svaret.
 // console.log("Opgave 3a", ...)
-
+/** ** @param {string} name "fx: 'Trixie'" */
+function returnBoolOfName(name) { let returning; dogsArray.forEach((cValue) => { if (cValue == name) { return true } else { returning = false } }); return returning }
+console.log(`Found the dog: ${returnBoolOfName("Trixie")}`)
 
 // Opgave 3b
 // Check om der i dogsArray er en hund som hedder "Baxter".
