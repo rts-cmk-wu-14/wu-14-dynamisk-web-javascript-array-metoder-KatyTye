@@ -58,7 +58,7 @@ console.log(returnArrayWithExtra(3))
 // (Sådan her: BarneyMollyBaxter...)
 // Udskriv strengen konsollen:
 // console.log("Opgave 6", ...)
-
+console.log(dogsArray.toString().replaceAll(",", ""))
 
 //     Opgave 7a
 // Find ud af hvilket index "Mango" har i fruitsArray.
